@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:text="Ciudad"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvCountryCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Pais"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"/>
+
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:text="Temperatura"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvTempMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Temp.Max"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/tvTempMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Tem.Min"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/tvHumedad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Humedad"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:text="Próximos 5 días:"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>
